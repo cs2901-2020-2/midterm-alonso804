@@ -1,12 +1,12 @@
 package midterm;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public class Chart {
     PieChart pieChart;
     BarChart barChart;
 
-    public Chart(String name, HashMap<String, Double> subjects) {
+    public Chart(String name, Map<String, Double> subjects) {
         pieChart = new PieChart(name, subjects);
         barChart = new BarChart(name, subjects);
     }
