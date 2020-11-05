@@ -7,6 +7,14 @@
     <groupId>cs2901</groupId>
     <artifactId>midterm-alonso804</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <sonar.projectKey>cs2901-2020-2_midterm-alonso804</sonar.projectKey>
+        <sonar.organization>cs2901-2020-2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>d3fcc76e741d52fd6777ca2f55e3e4f950ca37df</sonar.login>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
