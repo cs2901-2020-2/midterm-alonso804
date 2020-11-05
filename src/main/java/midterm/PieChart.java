@@ -6,7 +6,6 @@ import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
 
 import javax.swing.*;
-import java.util.Iterator;
 import java.util.Map;
 
 public class PieChart extends ApplicationFrame {
